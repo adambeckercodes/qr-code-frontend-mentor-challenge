@@ -148,14 +148,12 @@ body {
   letter-spacing: 0.2px;
 }
 
-/* FOOTER - ATTRIBUTION */
-
-.footer {
-  position: absolute;
-  bottom: 5rem;
-}
+/* ATTRIBUTION */
 
 .attribution {
+  position: absolute;
+  bottom: 5rem;
+
   text-align: center;
   color: var(--color-slate-900);
 }
