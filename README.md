@@ -1,87 +1,140 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR code component solution
 
-![Design preview for the QR code component coding challenge](./preview.jpg)
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+### Screenshot
 
-Your challenge is to build out this QR code component and get it looking as close to the design as possible.
+![](./images/qr-code-component-screenshot.png)
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Links
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-using-css-flex-Iomfqj_V8h]
+- Live Site URL: [https://qr-code-frontend-mentor-challenge-lovat.vercel.app/]
 
-## Where to find everything
+## My process
+For this project, I followed a structured approach to ensure clean, efficient, and responsive design:
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+HTML Structure
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+- I began by creating the HTML structure to define the content and layout of the QR code component.
+- I focused on using semantic HTML5 tags such as <main>, <article>, and <footer> to improve the readability and accessibility of the document.
+- The QR code image is placed inside an <img> tag with an alt attribute to describe the image, improving accessibility for screen readers.
+- The main content of the component, including the title and description, was enclosed in an <article> to logically group the content.
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+CSS Styling
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+- Once the HTML structure was in place, I added styles using CSS to improve the visual appearance of the component.
+- I used CSS custom properties (variables) to define color schemes, font sizes, and spacing, which promotes consistency and easy adjustments across the styles.
+- I focused on creating a visually appealing card with a subtle pulse animation that draws attention to the QR code, adding interactivity and a modern touch.
+- I ensured that the layout is responsive, so the component looks good across different screen sizes, particularly mobile devices.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+By following this approach, I was able to maintain a clean separation between content (HTML) and presentation (CSS), making the project easier to maintain and extend in the future.
 
-## Building your project
+### Built with
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Desktop-first workflow
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### What I learned
 
-## Deploying your project
+I. HTML Concepts
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+Semantic HTML:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+1. I have utilized <main>, <footer>, <article>, and <aside> elements, which help define meaningful sections of the page for accessibility and SEO.
+Learned the importance of using ARIA attributes (e.g., aria-labelledby, aria-describedby) to improve accessibility for assistive technologies.
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+2. Accessibility Features:
 
-## Create a custom `README.md`
+The inclusion of a skip link ensures keyboard navigability and better usability for visually impaired users.
+Using alt attributes for images and ensuring descriptive content for screen readers.
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+3. Structuring Content:
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+Creating a logical hierarchy and grouping content logically with containers and ensuring flexibility in layout.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+4. External Resources:
 
-## Submitting your solution
+How to load fonts from external sources (Google Fonts) and how to add a favicon.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+II. CSS Concepts
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+1. Responsive Design:
 
-## Sharing your solution
+Using relative units (rem) for font sizes and spacing to create a scalable design.
+Defining a min-width for the layout ensures it remains functional on smaller screens.
+Proper use of max-width and padding for contained layouts.
 
-There are multiple places you can share your solution:
+2. CSS Variables:
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+I have used variables (`--color-*`, `--font-size-*`, `--spacing-*`) to create a reusable and maintainable design system.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+3. Flexbox Layout:
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+Utilizing `display: flex` with properties like `flex-direction`, `gap`, and `justify-content` to align and position elements efficiently.
 
-## Got feedback for us?
+4. Animations:
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+Implementing the pulse animation using `@keyframes` and understanding how animations can enhance visual interest.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+5. Accessibility with CSS:
 
-**Have fun building!** 🚀
+Styled focus states (e.g., `:focus-visible`) for interactive elements to enhance keyboard accessibility.
+
+6. Improved Visuals:
+
+Adding subtle shadows (`box-shadow`) and rounded corners (`border-radius`) to create modern, polished UI components.
+
+III. Broader Skills
+
+1. Code Organization:
+
+Separating content (HTML) and styles (CSS) ensures clean and maintainable code.
+Grouping related styles and using meaningful class names like `card__title` or attribution.
+
+2. Problem-Solving:
+
+Thinking about responsiveness, accessibility, and interactivity likely helped you develop critical front-end problem-solving skills.
+
+3. Understanding Accessibility Standards:
+
+Applying ARIA roles and labels aligns with industry standards, preparing you to write accessible web applications.
+
+### Continued development
+
+1. Media Queries: Experiment with media queries to make the design adapt even better across screen sizes.
+
+2. Advanced Accessibility: Dive deeper into ARIA roles and live region features.
+
+3. CSS Grid: Explore how CSS Grid can complement Flexbox for complex layouts.
+
+4. JavaScript Enhancements: Add interactivity, like a hover effect that dynamically adjusts content or animations triggered on scroll.
+
+### Useful resources
+
+- [https://codepen.io/saigowthamr/pen/PowdZqy] - This helped me with pulse animation on the card component. I really liked this pattern and will use it going forward.
+
+## Author
+
+- GitHub - [Dias Adambekov](https://github.com/adambeckercodes)
+- Frontend Mentor - [@adambeckercodes](https://www.frontendmentor.io/profile/adambeckercodes)
+- Twitter - [@adambeckercodes](https://x.com/adambeckercodes)

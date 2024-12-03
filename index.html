@@ -4,43 +4,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | QR code component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-  <div class="container">
-    <div class="card">
-      <img src="images/image-qr-code.png" alt="image-qr-code" class="img">
-  
-      <div class="content">
-        <h1 class="card-title">Improve your front-end<br>skills by building projects</h1>
-  
-        <p class="card-descr">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  <main class="main" id="main-content">
+    <div class="container">
+      <div class="card flex pulse" tabindex="0" role="region" aria-labelledby="card-title" aria-describedby="card-description">
+        <img src="images/image-qr-code.png" alt="QR code linking to Frontend Mentor website" class="card__img" aria-hidden="true">
+        <article class="card__content flex">
+          <h1 class="card__title">
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="card__descr">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+          </p>
+        </article>
       </div>
     </div>
-  </div>
+  </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Dias Adambekov</a>.
-  </div>
+  <footer class="footer">
+    <aside class="attribution" role="contentinfo" aria-label="Attribution section">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        aria-label="Visit Frontend Mentor challenge page">Frontend Mentor</a>.
+      <br>
+      Coded by <a href="https://www.frontendmentor.io/profile/adambeckercodes" target="_blank"
+        aria-label="Visit my profile on Frontend Mentor page">Dias Adambekov</a>.
+    </aside>
+  </footer>
 </body>
 
 </html>
